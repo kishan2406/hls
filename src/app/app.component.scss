@@ -1,0 +1,110 @@
+
+.heading{
+    text-align: center;
+}
+
+.mainDiv{
+    display: flex; 
+    justify-content: center;
+    margin: 3%;
+    
+}
+.videoClass{
+
+    // display:flex;
+    // justify-content:space-between;
+    
+    // border: solid black 1px;
+    width:600px;
+   height: 110px;
+//    background-color: #3d5d90;
+   border-radius: 10px;
+
+   @media only screen and (max-widht:768px) {
+    width:400px;
+   }
+
+
+
+
+}
+
+
+
+
+   
+
+.togethring{
+    color: red;
+}
+button {
+    font-size: 16px;
+    color: #333;
+    // background-color: #fff;
+    border: 1px solid #333;
+    // padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+//   *****************
+
+
+
+
+//   *****************
+
+.mainAudioDiv{
+    height: 30%;
+    width : 40%;
+    border : solid black 1px;
+    flex-wrap: wrap;
+    // background-color: #d7d7a2;
+    background-color: rgb(213, 176, 106);
+
+    @media only screen and (max-width:768px) {
+        height: 25%;
+        width : 100%;
+    }
+    
+
+    .eyeBtnAndCloseBtn{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.imgPlayPauseBtnDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.playPauseBtn{
+    margin-top: 60px;   
+    // margin-right: 100px
+}
+
+.imageDiv{
+    margin:4px;
+}
+.rangeDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.PicClass{
+    height: 100px ;
+    width: 100px ;
+    border-radius: 6px;
+    @media only screen and (max-width:768px) {
+        height: 80px ;
+        width: 80px ;
+    }
+
+}
+
+.restThreeIcon{
+    display: flex;
+    justify-content: center;    
+    gap: 35px;
+    margin: 15px 0 5px 0;
+}
+
